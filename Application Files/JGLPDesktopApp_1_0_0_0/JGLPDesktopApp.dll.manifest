@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="JGLPDesktopApp.exe" version="1.0.0.0" publicKeyToken="07c69a108eabaeba" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="JGLPDesktopApp.exe" version="1.0.0.0" publicKeyToken="4b2372836719a63c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icons\Icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -42,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17376">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17344">
       <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xseN7NMt3TalMRcGbvHtNCWPWPBZKg32TxU/+MajOZA=</dsig:DigestValue>
+        <dsig:DigestValue>1JfxzdIBSdIBIMogVZxSSLi7HtYyUviSnUwl9wwHzx4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -98,6 +99,15 @@
       <dsig:DigestValue>8Aauua6Q5HMZvDp5JZFPjEY5VI7r0YdBafrtA1p8bBI=</dsig:DigestValue>
     </hash>
   </file>
+  <file name="Icons\Icon.ico" size="4154">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zsnQGNE37kqDvcf3N6EtZtaEjUmGfKsXHeTkcq43kSs=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="it\Xceed.Wpf.AvalonDock.resources.dll" size="6144">
     <hash>
       <dsig:Transforms>
@@ -125,22 +135,22 @@
       <dsig:DigestValue>QGvg6csmtsrrL2o2bJ+VjZ3S/G8b0e3wRjO8YSOip1g=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="JGLPDesktopApp.dll" size="546784">
+  <file name="JGLPDesktopApp.dll" size="550336">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>SkZC48qnBv1Ko0gWkae79RK5SC+o6d//uEF74ELmzL4=</dsig:DigestValue>
+      <dsig:DigestValue>cNDEvuBOYXWMarVl5+gNnyY2RiBRVqKTwWfTFF/apr0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="JGLPDesktopApp.exe" size="157152">
+  <file name="JGLPDesktopApp.exe" size="161728">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>NL11JaRjeRE8JF1eQ1KOH5rreg2KagF7v5/wvCRM5Ws=</dsig:DigestValue>
+      <dsig:DigestValue>EipuGwbAGB1EFtEQ+xMuA6r/kIeKD9GnEehLdPnt0PU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="JGLPDesktopApp.runtimeconfig.json" size="516">
@@ -296,4 +306,4 @@
       <dsig:DigestValue>80mJWHL9aSyzjWpReWRGyIwN3Gz1Q+uvQWDghGyeO1s=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=DESKTOP-VID6T19\yasoi" issuerKeyHash="6343b024e8e00a8212ed137df94953556ad0bee3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KUVNOQOAzpxabVepCLY+vCDLwwM02DPJ0lwKAHyfbH8=</DigestValue></Reference></SignedInfo><SignatureValue>mzpKEc0hC2lBSSpYVZs2RmyjFYoVRAjbC9jZTCXNM7a13WdPnHdqwjzfCTY+v5ugWfxhtHGsTcbY0q3dIkAB2If75FtyCMUfos63SELfs7D8fLfSfaAf1TWQDppDq5TD7v3homPjIlhhZxhQ8x9TyH0UG5Inlk0wJupjDoyaWRQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>varOMSKyOzYFjXe1l9iEjU9ONYwnxZBq2lIA2QZTABSt2U2qdU4uehcmgJat++lVzZsc6nqiXS6YnWpNTJHoQ070q9eCK2HSK51EDUpF2elh9nghY2zmLvtZbNq0Szw96PtlVUgVHwpMeqJyGhTU51/PbFiycUoCHdzmSz1gMgE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7f6c9f7c000a5cd2c933d83403c3cb20bc3eb608a9576d5a9cce8003394d4529" Description="" Url=""><as:assemblyIdentity name="JGLPDesktopApp.exe" version="1.0.0.0" publicKeyToken="07c69a108eabaeba" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-VID6T19\yasoi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DJrwllhwSp8nOXkfw/aHxayqD52Cc3H2RGcGvs/9deE=</DigestValue></Reference></SignedInfo><SignatureValue>NT1Sv4gmOzx13zcY25++os7HNru+nBUuE43TwNNt1EJQAg6mMiJ48Me5YjmPqbq4kCOJCgIioaZvF5y4y8u/XUc3AuinphSfjypGo+RcG3Wb5FQYLAlYAcODfMGt5LsllQaONA+0SmnVT1quoPpkyQjwzmfcXJCP2rJUydc5hSI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>varOMSKyOzYFjXe1l9iEjU9ONYwnxZBq2lIA2QZTABSt2U2qdU4uehcmgJat++lVzZsc6nqiXS6YnWpNTJHoQ070q9eCK2HSK51EDUpF2elh9nghY2zmLvtZbNq0Szw96PtlVUgVHwpMeqJyGhTU51/PbFiycUoCHdzmSz1gMgE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQIMAM/Kidn4ZPs7tFgZduWDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFYASQBEADYAVAAxADkAXAB5AGEAcwBvAGkwHhcNMjUxMjA2MjMxNDA2WhcNMjYxMjA3MDUxNDA2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFYASQBEADYAVAAxADkAXAB5AGEAcwBvAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL2qzjEisjs2BY13tZfYhI1PTjWMJ8WQatpSANkGUwAUrdlNqnVOLnoXJoCWrfvpVc2bHOp6ol0umJ1qTUyR6ENO9KvXgith0iudRA1KRdnpYfZ4IWNs5i77WWzatEs8Pej7ZVVIFR8KTHqichoU1Odfz2xYsnFKAh3c5ks9YDIBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAcuDvxnrsVTnnWK21IJHrD06FQsQAuTE5OHuCqgefEzqrH4OThv3JzLyak9M7EOl/hFr/4nU0TYTurp3qVaNyFucRBd2Y1CsiEOBJvZjiUYG+RmhYHjypwkw3vLFPBZbirc6579E/O9WphdoYL7cBuaU9rpwz5uGPVdmMK4Fh8qQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=SKIPPER-PC\skipp" issuerKeyHash="355e3f9488db715b02010b1c2717e3659f087eb6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>26AWrlyM4yTaaYRT5jivo/s7i+kPGhnBQv0M3+SyHgI=</DigestValue></Reference></SignedInfo><SignatureValue>iV7vO58JX5KmVB4Vgdf5qb/TMOyjkAP3ljvkb1elgxGxct9sIHJ2an7B126X2WCdWXrdI1Qb7J6JbdJNyQ5e2LqAWMP+uLQLoeE1qDv1LU75hs81nnPGxiISJ921c+rx4VbnphF7qdQx7c0TgGs9N5ZGw540wCb0RiLaaBgUciQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rUe7upkSKJ+UttWf/kHMrYa4ZUn4xDkmlmiWQpTGTmNVCYiYkwBzL0yGG1DOUKMkLQv9MeMF4M7QXEbQ63mGr5nE8B35DTOGoFPYZIJsCVLocCtrhb1R5hfSHLYSb75AgYIeWqAm8S+a3dSQs710+v8UivWkoaWBzsOJDJdc/8E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="021eb2e4df0cfd42c1191a0fe98b3bfba3af38e6538469da24e38c5cae16a0db" Description="" Url=""><as:assemblyIdentity name="JGLPDesktopApp.exe" version="1.0.0.0" publicKeyToken="4b2372836719a63c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SKIPPER-PC\skipp</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8+e3n569xJ6iL7S00aG+lidUt3NeWo/JoqAVcHvb+DQ=</DigestValue></Reference></SignedInfo><SignatureValue>GwBKpIthR7Rtfg1g0WPOgSo38BVWkSJm8l45vXoTGTD+DyaLJmnkABB/zoZdqV2JIC1bh/6eV6aaxs7BxCD+pygI6osa8N3DxSb9h+mg4bS3ABVlIZLE452p7d4FvYwkpWlZxM3QU30QK4SxwlXwGtMYsHlz1cQdhycTnmwko7M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rUe7upkSKJ+UttWf/kHMrYa4ZUn4xDkmlmiWQpTGTmNVCYiYkwBzL0yGG1DOUKMkLQv9MeMF4M7QXEbQ63mGr5nE8B35DTOGoFPYZIJsCVLocCtrhb1R5hfSHLYSb75AgYIeWqAm8S+a3dSQs710+v8UivWkoaWBzsOJDJdc/8E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQPJXY9lhPmblP+JfoBianazANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAUwBLAEkAUABQAEUAUgAtAFAAQwBcAHMAawBpAHAAcDAeFw0yNTEyMTMwMTQ0NTRaFw0yNjEyMTMwNzQ0NTRaMCsxKTAnBgNVBAMeIABTAEsASQBQAFAARQBSAC0AUABDAFwAcwBrAGkAcABwMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtR7u6mRIon5S21Z/+QcythrhlSfjEOSaWaJZClMZOY1UJiJiTAHMvTIYbUM5QoyQtC/0x4wXgztBcRtDreYavmcTwHfkNM4agU9hkgmwJUuhwK2uFvVHmF9IcthJvvkCBgh5aoCbxL5rd1JCzvXT6/xSK9aShpYHOw4kMl1z/wQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAI8KD5BiRdap5xV7yrtqIqM6kVDRbgmQsfpkb3pyUIPsvmx0wTTRGsTysX6elMehUoqcNrX1OEhQydTRRectQBfCFKOvfGwZrF8x9K+BqjcdBZnorY6sx2oZG6O0wtWZzbpJndSIINSTWf+XYks406e7mg57nvUVCUQEnt2KHjuu</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
