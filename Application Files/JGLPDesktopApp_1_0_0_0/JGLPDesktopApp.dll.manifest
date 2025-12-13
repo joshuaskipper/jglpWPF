@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="JGLPDesktopApp.exe" version="1.0.0.0" publicKeyToken="4b2372836719a63c" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="JGLPDesktopApp.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Icons\Icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17344">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="16384">
       <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1JfxzdIBSdIBIMogVZxSSLi7HtYyUviSnUwl9wwHzx4=</dsig:DigestValue>
+        <dsig:DigestValue>ksUS43lPPTDArCNVLBrFIzdHX5/GlTr9m+bXgiL+SUs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -135,22 +135,22 @@
       <dsig:DigestValue>QGvg6csmtsrrL2o2bJ+VjZ3S/G8b0e3wRjO8YSOip1g=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="JGLPDesktopApp.dll" size="550336">
+  <file name="JGLPDesktopApp.dll" size="548864">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>cNDEvuBOYXWMarVl5+gNnyY2RiBRVqKTwWfTFF/apr0=</dsig:DigestValue>
+      <dsig:DigestValue>lD+ZsmL3/iHP1slK2yBdh1yc/CnLao8iycV9sMYhxFs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="JGLPDesktopApp.exe" size="161728">
+  <file name="JGLPDesktopApp.exe" size="160256">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>EipuGwbAGB1EFtEQ+xMuA6r/kIeKD9GnEehLdPnt0PU=</dsig:DigestValue>
+      <dsig:DigestValue>INaHO+x57TwH3fo4WdjM6dxL8dLruHG6YyMcYDqppV8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="JGLPDesktopApp.runtimeconfig.json" size="516">
@@ -306,4 +306,4 @@
       <dsig:DigestValue>80mJWHL9aSyzjWpReWRGyIwN3Gz1Q+uvQWDghGyeO1s=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=SKIPPER-PC\skipp" issuerKeyHash="355e3f9488db715b02010b1c2717e3659f087eb6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>26AWrlyM4yTaaYRT5jivo/s7i+kPGhnBQv0M3+SyHgI=</DigestValue></Reference></SignedInfo><SignatureValue>iV7vO58JX5KmVB4Vgdf5qb/TMOyjkAP3ljvkb1elgxGxct9sIHJ2an7B126X2WCdWXrdI1Qb7J6JbdJNyQ5e2LqAWMP+uLQLoeE1qDv1LU75hs81nnPGxiISJ921c+rx4VbnphF7qdQx7c0TgGs9N5ZGw540wCb0RiLaaBgUciQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rUe7upkSKJ+UttWf/kHMrYa4ZUn4xDkmlmiWQpTGTmNVCYiYkwBzL0yGG1DOUKMkLQv9MeMF4M7QXEbQ63mGr5nE8B35DTOGoFPYZIJsCVLocCtrhb1R5hfSHLYSb75AgYIeWqAm8S+a3dSQs710+v8UivWkoaWBzsOJDJdc/8E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="021eb2e4df0cfd42c1191a0fe98b3bfba3af38e6538469da24e38c5cae16a0db" Description="" Url=""><as:assemblyIdentity name="JGLPDesktopApp.exe" version="1.0.0.0" publicKeyToken="4b2372836719a63c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SKIPPER-PC\skipp</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8+e3n569xJ6iL7S00aG+lidUt3NeWo/JoqAVcHvb+DQ=</DigestValue></Reference></SignedInfo><SignatureValue>GwBKpIthR7Rtfg1g0WPOgSo38BVWkSJm8l45vXoTGTD+DyaLJmnkABB/zoZdqV2JIC1bh/6eV6aaxs7BxCD+pygI6osa8N3DxSb9h+mg4bS3ABVlIZLE452p7d4FvYwkpWlZxM3QU30QK4SxwlXwGtMYsHlz1cQdhycTnmwko7M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rUe7upkSKJ+UttWf/kHMrYa4ZUn4xDkmlmiWQpTGTmNVCYiYkwBzL0yGG1DOUKMkLQv9MeMF4M7QXEbQ63mGr5nE8B35DTOGoFPYZIJsCVLocCtrhb1R5hfSHLYSb75AgYIeWqAm8S+a3dSQs710+v8UivWkoaWBzsOJDJdc/8E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQPJXY9lhPmblP+JfoBianazANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAUwBLAEkAUABQAEUAUgAtAFAAQwBcAHMAawBpAHAAcDAeFw0yNTEyMTMwMTQ0NTRaFw0yNjEyMTMwNzQ0NTRaMCsxKTAnBgNVBAMeIABTAEsASQBQAFAARQBSAC0AUABDAFwAcwBrAGkAcABwMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtR7u6mRIon5S21Z/+QcythrhlSfjEOSaWaJZClMZOY1UJiJiTAHMvTIYbUM5QoyQtC/0x4wXgztBcRtDreYavmcTwHfkNM4agU9hkgmwJUuhwK2uFvVHmF9IcthJvvkCBgh5aoCbxL5rd1JCzvXT6/xSK9aShpYHOw4kMl1z/wQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAI8KD5BiRdap5xV7yrtqIqM6kVDRbgmQsfpkb3pyUIPsvmx0wTTRGsTysX6elMehUoqcNrX1OEhQydTRRectQBfCFKOvfGwZrF8x9K+BqjcdBZnorY6sx2oZG6O0wtWZzbpJndSIINSTWf+XYks406e7mg57nvUVCUQEnt2KHjuu</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+</asmv1:assembly>
